@@ -12,5 +12,7 @@ public class DroneAdapter implements Duck{
     public void fly() {
         for(int i =0; i < 4; i++)
             drone.spin_rotors();
+
+        drone.take_off();
     }
 }
